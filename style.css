@@ -8,7 +8,7 @@ body, html {
 body{
     display: flex;
     flex-direction: column;
-    background-image: url('/images/capa-fundo-ajuste.png');
+    background-image: url('images/capa-fundo-ajuste.png');
     background-repeat: no-repeat;
     background-size: cover;
 }
