@@ -1,0 +1,130 @@
+body, html {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-image: url('/images/capa-fundo-ajuste.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#rodape{
+    background: rgb(27 24 71); 
+    height:100px;
+    width: 100%;
+    text-align: center;
+}
+
+
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+
+p, a{
+    font-family: 'Raleway', sans-serif;
+    color:black;
+
+}
+
+.card{
+    box-sizing: border-box; 
+    width: 85%;
+    margin:auto;
+}
+
+
+@media (max-width: 370px)
+{
+    .person-btn{
+        width: 95%!important;
+    }
+} 
+
+
+.person-btn{
+    display: flex;
+    all: unset;
+    color: #fff;
+    background-color: rgb(27 24 71);
+    border-color: rgb(27 24 71);
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 20px 15px;
+    font-size: 1rem;
+    line-height: 2;
+    border-radius: 8px;
+}
+
+.accordion
+{
+    display: flex;
+    flex-direction: column;  
+    gap:25px;
+}
+
+.redes-sociais
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0 60px 0;
+    font-size: 40px;
+    gap:25px;
+    transition: background-color 0.2s ;
+}
+
+.redes-sociais a
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(27 24 71);
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+}
+
+
+.contato a:hover
+{
+    text-decoration: none;
+}
+
+.contato p
+{
+    font-style:italic;
+    margin-bottom: 0;
+    font-size: 15px;
+}
+
+
+@media(max-width: 700px)
+{
+    .contato p
+    {
+        font-size: 13px;
+    }
+
+}
+
+
+.contato{
+    margin-top:20px;
+}
