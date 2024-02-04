@@ -102,6 +102,10 @@ p, a, ul, li{
 }
 
 
+.redes-sociais a:hover{
+    color: #ffffff;
+}
+
 .contato a:hover
 {
     text-decoration: none;
